@@ -1,0 +1,105 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .image{
+    
+    
+     
+    width: 1100px;
+    height: auto;
+    
+    
+  }
+
+  .footer{
+    background-color: violet;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 201, 201, 0.247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 50px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+ /* *{
+    padding: 0;
+    margin: 0;
+  }*/
+
+  #navbar1{
+    color: #00bfff;
+  }
+
+  .btn btn-outline-info{
+    display: block;
+    padding: 20px;
+    margin: 50px;
+  }
+
+  #button1{
+    padding-left: 47px;
+    padding-top: 15px;
+    
+  }
+
+  .image2{
+    margin-right: 50px;
+    
+  }
+
+  .col-10 col-sm-8 col-lg-6{
+    padding-left: 100px;
+    margin-left: 150px;
+    
+  }
+
+  .span{
+    color:rgb(255, 255, 0);
+    font-size:larger;
+    font-family:Cambria;
+  }
